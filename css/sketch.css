@@ -1,6 +1,7 @@
 #grid{
 	max-width: 960px;
 	margin: auto;
+	padding: 50px;
 }
 
 .box {
@@ -13,6 +14,8 @@
 #titleBox {
 	margin: auto;
 	background-color: #36454f;
+	width: auto;
+	padding-bottom: 20px;
 }
 #titleBox > h1 {
 	text-align: center;
@@ -24,17 +27,13 @@ html {
 }
 
 #clearButton {
-	margin: auto;
+	
+}
+
+#changeGridButton {
+	
 }
 
 body {
 	text-align: center;
-}
-
-#optionBox {
-	width: 100px;
-	border: 1px solid black;
-	background-color: #36454f;
-	border-radius: 25px;
-	margin: auto;
 }
