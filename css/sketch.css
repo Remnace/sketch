@@ -1,19 +1,40 @@
 #grid{
-	margin-top: 100px;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 960px;
+	margin: auto;
 }
 
 .box {
-	width: 25px;
-	height: 25px;
-	margin: 0px;
-	display: inline-block;
 	float: left;
-	border: .1px solid black;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-.row{
-	width: 450px;
-	height: 25px;
+#titleBox {
+	margin: auto;
+	background-color: #36454f;
+}
+#titleBox > h1 {
+	text-align: center;
+	color: #faebd7;
+}
+
+html {
+	background-color: #8B0000;
+}
+
+#clearButton {
+	margin: auto;
+}
+
+body {
+	text-align: center;
+}
+
+#optionBox {
+	width: 100px;
+	border: 1px solid black;
+	background-color: #36454f;
+	border-radius: 25px;
+	margin: auto;
 }
