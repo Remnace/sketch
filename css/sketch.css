@@ -22,16 +22,42 @@
 	color: #faebd7;
 }
 
+#footer {
+	
+}
+
+#footer p {
+	font-size: 20px;
+	color: red;
+}
+
 html {
 	background-color: #8B0000;
 }
 
 #clearButton {
-	
+	width: 100px;
+	height: 40px;
 }
 
 #changeGridButton {
-	
+	width: 100px;
+	height: 40px;
+}
+
+#rcButton {
+	width: 100px;
+	height: 40px;
+}
+
+#blackButton {
+	width: 100px;
+	height: 40px;
+}
+
+form {
+	color: #faebd7;
+	padding-top: 15px;
 }
 
 body {

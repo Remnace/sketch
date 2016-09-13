@@ -18,15 +18,15 @@ function clearGrid() {
 //Changes background color of a grid box when hovered over with mouse.
 function draw() {
 	$('div.box').hover(function() {
-		$(this).css('background', '#8ec252');
+		$(this).css('background', 'black');
 	});
 }
 
 //Gets a new size for the grid and calls the drawGrid function with the new size.
 function newSize() {
-	var newSize = prompt('Enter a number between 0 and 65.');
-	if (newSize < 1 || newSize > 64) {
-		alert('That is definitely not between 0 and 65!');
+	var newSize = prompt('Enter a number between 0 and 129.');
+	if (newSize < 1 || newSize > 128) {
+		alert('That is definitely not between 0 and 129!');
 	}
 	else {
 		drawGrid(newSize);
